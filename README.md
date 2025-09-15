@@ -1,6 +1,6 @@
 # AWS Static Website Hosting Project
 
-In this project, a static website was deployued to AWS using multiple core services:
+In this project, a static website was deployed to AWS using multiple core services:
 
 - **Amazon S3** → for static website hosting 
 
@@ -21,4 +21,4 @@ https://my-mini-project-site.s3.us-east-1.amazonaws.com/index.html
 
 ## Documentation folder 
 
-- Extra screenshots
+- Contains extra screenshots
