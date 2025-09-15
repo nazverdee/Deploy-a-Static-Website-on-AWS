@@ -1,14 +1,24 @@
 # AWS Static Website Hosting Project
 
-In this project, I deployed a static website to AWS using multiple core services:
+In this project, a static website was deployued to AWS using multiple core services:
 
 - **Amazon S3** → for static website hosting 
-- **IAM** → for secure access management with least privilege  
+
+https://my-mini-project-site.s3.us-east-1.amazonaws.com/index.html
+
+- **IAM** → Applying least priviledge.
+
+    - `s3:GetObject`, `s3:PutObject` on `my-bucket` (read/write permissions)
+    - Attached policy file: `Admin-policy.json` contains the full policy with the above permissions
+
 - **VPC + EC2** → for hosting a backend server inside a custom network  
 - **CloudFront** → for global content delivery and HTTPS support  
 
+
 <img src="Images/diagram.png" alt="Diagram" width="400">
 
-## Live Website link hosted in this project
 
-https://my-mini-project-site.s3.us-east-1.amazonaws.com/index.html
+
+## Documentation folder 
+
+- Extra screenshots
