@@ -12,11 +12,12 @@ https://my-mini-project-site.s3.us-east-1.amazonaws.com/index.html
     - Attached policy file: `Admin-policy.json` contains the full policy with the above permissions
 
 
-- **CloudFront** → for global content delivery and HTTPS support  
-
+- **CloudFront** → for global content delivery  
+    - *Enabled Caching* to improved performance (using AWS recommended settings)
+    - Configured *custom error pages*:
+        - Added `404.html` (stored in the `/src` folder) as the error response for missing pages.
 
 <img src="Images/diagram.png" alt="Diagram" width="400">
-
 
 
 ## Documentation folder 
