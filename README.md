@@ -17,7 +17,7 @@ https://my-mini-project-site.s3.us-east-1.amazonaws.com/index.html
     - Configured *custom error pages*:
         - Added `404.html` (stored in the `/src` folder) as the error response for missing pages.
 
-## Documentation folder 
+- **Documentation folder** 
 
     - Contains extra screenshots
 
