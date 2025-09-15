@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon S3 Buckets</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+            background-color: #f4f4f4;
+        }
+        h1, h2 {
+            color: #0b3d91;
+        }
+        p {
+            max-width: 800px;
+        }
+        ul {
+            max-width: 800px;
+        }
+        code {
+            background-color: #e8e8e8;
+            padding: 2px 5px;
+            border-radius: 3px;
+        }
+        .container {
+            background-color: #fff;
+            padding: 20px 30px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Amazon S3 Buckets</h1>
+        <p>
+            Amazon Simple Storage Service (S3) is a scalable, high-speed, web-based cloud storage service
+            designed for online backup and archiving of data and applications. S3 allows you to store and retrieve
+            any amount of data at any time, from anywhere on the web.
+        </p>
+
+        <h2>What is a Bucket?</h2>
+        <p>
+            A bucket is a container in Amazon S3 that holds your data objects (files). Every object is stored
+            in a bucket, and each bucket has a unique name across all of AWS.
+        </p>
+
+        <h2>Key Features of S3 Buckets</h2>
+        <ul>
+            <li><strong>Scalability:</strong> Automatically scales to handle large amounts of data.</li>
+            <li><strong>Durability:</strong> Designed for 99.999999999% durability of objects over a given year.</li>
+            <li><strong>Security:</strong> Supports encryption and fine-grained access control using IAM policies.</li>
+            <li><strong>Versioning:</strong> Keep multiple versions of an object in the same bucket.</li>
+            <li><strong>Lifecycle Policies:</strong> Automatically archive or delete objects based on rules.</li>
+        </ul>
+
+        <h2>Example of Creating a Bucket (AWS CLI)</h2>
+        <p>
+            You can create a bucket using the AWS Command Line Interface (CLI) like this:
+        </p>
+        <pre><code>aws s3 mb s3://my-example-bucket</code></pre>
+
+        <h2>Use Cases</h2>
+        <ul>
+            <li>Website hosting and content delivery.</li>
+            <li>Backup and restore applications.</li>
+            <li>Big data analytics.</li>
+            <li>Storing media files like images, videos, and documents.</li>
+        </ul>
+    </div>
+</body>
+</html>

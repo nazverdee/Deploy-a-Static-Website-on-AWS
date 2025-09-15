@@ -11,7 +11,7 @@ https://my-mini-project-site.s3.us-east-1.amazonaws.com/index.html
     - `s3:GetObject`, `s3:PutObject` on `my-bucket` (read/write permissions)
     - Attached policy file: `Admin-policy.json` contains the full policy with the above permissions
 
-- **VPC + EC2** → for hosting a backend server inside a custom network  
+
 - **CloudFront** → for global content delivery and HTTPS support  
 
 
